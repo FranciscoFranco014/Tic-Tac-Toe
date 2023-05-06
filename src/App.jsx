@@ -52,6 +52,7 @@ function App() {
 
   return( 
     <main className='board'>
+      <title> Tic tac toe </title>
       <h1>Tic tac toe</h1>
       <button onClick={resetGame}>Restart game</button>
 
@@ -78,7 +79,6 @@ function App() {
       <WinnerModal resetGame={resetGame} winner={winner} />
 
     </main>
-  
         
   )
 
