@@ -144,4 +144,25 @@ h1:hover{
   place-items: center;
   cursor: pointer;
   font-size: 48px;
+  background-color: #69657c55;
+}
+
+
+.square:hover{
+  /* transform: translate(1px);
+   */
+   /* transform: skew(1deg, 1deg) */
+   transform: scale(1, 0.97)
+}
+
+.scoreBoard{
+  background-color: #69657c55;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px #242424;
+  
+}
+
+.scoreBoard:hover{
+  background-color: #73628A ;
 }
